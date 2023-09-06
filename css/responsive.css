@@ -924,4 +924,9 @@
 	    min-height: 65px;
 	}
 
+	ul.right-btn a {
+	    font-size: 12px;
+	    padding: 3px 10px;
+	}
+
 }
