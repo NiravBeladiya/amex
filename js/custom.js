@@ -17,6 +17,20 @@ $('.moving-company-list').hide();
 	$('.right-btn-scroll').click(function(){
 	$(".right-btn").toggleClass('right-btn-scroll-open');
 })
+
+	//fixed header
+    $(window).scroll(function() {
+        var header = $('header');
+        var scroll = $(window).scrollTop();
+        var homeScroll = 100;
+        if (scroll > homeScroll) {
+            header.addClass('fixed');
+            jQuery('#return-to-top').fadeIn(300);
+        } else {
+            header.removeClass('fixed');
+            jQuery('#return-to-top').fadeOut(300);
+        }
+    });
 	
 	$('.Testimonial').owlCarousel({
 		    loop:true,

@@ -314,6 +314,10 @@ section {
     flex-wrap: wrap;
 }
 
+.fixed {
+    top: -55px;
+}
+
 .header-top {
     background-color: var(--org);
     position: relative;
@@ -495,6 +499,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 9999;
+    transition: all 0.5s ease 0s;
 }
 
 .menu-bottom {

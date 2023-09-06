@@ -689,6 +689,7 @@
 	.service-text-area ul li {
 	    max-width: 100%;
 	    margin-bottom: 20px;
+	    padding: 30px;
 	}
 
 	.Moving-Service-heading h3 {
@@ -909,6 +910,18 @@
 
 	.left-btn li {
 	    transform: translateX(calc(179px - 8px));
+	}
+
+	.Movier-img {
+	    padding: 0;
+	}
+
+	.fixed {
+	    top: -32px;
+	}
+
+	.service-text-heading p {
+	    min-height: 65px;
 	}
 
 }
