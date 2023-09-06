@@ -13,6 +13,10 @@ $('.moving-company-list').hide();
 	$('.plus-icon').click(function(){
 	$(".plus-icon").toggleClass('plus-icon-rotat');
 })
+
+	$('.right-btn-scroll').click(function(){
+	$(".right-btn").toggleClass('right-btn-scroll-open');
+})
 	
 	$('.Testimonial').owlCarousel({
 		    loop:true,

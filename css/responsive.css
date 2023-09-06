@@ -901,4 +901,14 @@
 	    margin-right: 0px;
 	}
 
+	.left-btn li a {
+	    min-width: 171px;
+	    font-weight: 600;
+	    font-size: 9px;
+	}
+
+	.left-btn li {
+	    transform: translateX(calc(179px - 8px));
+	}
+
 }

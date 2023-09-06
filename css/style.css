@@ -541,6 +541,26 @@ header {
     transition: all 0.5s ease 0s;
 }
 
+ body .right-btn-scroll-open li{
+    transform: translateX(0px);
+}
+
+.right-btn li{
+    display: flex;
+    transform: translateX(-268px);
+    transition: all 0.5s ease 0s;
+}
+
+ul.right-btn a {
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    padding: 18px 65px;
+    justify-content: center;
+    align-items: center;
+}
+
 .banner-area-sec{
     background: url('../images/banner-1.svg');
     background-size: cover;
@@ -872,13 +892,14 @@ h3{
 
 .right-btn span {
     display: block;
+    line-height: 0;
 }
 
 .left-btn li {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 10px;
-    transform: translateX(calc(193px - 8px));
+    transform: translateX(calc(351px - 8px));
     transition: all 0.5s ease 0s;
 }
 
@@ -902,9 +923,9 @@ h3{
     background-color: var(--white);
     padding-right: 15px;
     padding-left: 15px;
-    min-width: 186px;
+    min-width: 344px;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .icon-sec{
