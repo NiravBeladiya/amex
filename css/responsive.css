@@ -4,7 +4,12 @@
 	}
 
 	.header-top-left {
-   	 	padding: 12px 75px 12px 0;
+   	 	padding: 17px 75px 12px 0;
+	}
+
+	.footer-bottom-text {
+	    width: 100%;
+	    max-width: 50%;
 	}
 
 	
@@ -77,7 +82,7 @@
 	}
 
 	body p {
-   	 	font-size: 14px;
+   	 	font-size: 13px;
 	}
 
 	.Moving-Service-heading h3 {
@@ -188,11 +193,119 @@
 	.Moving-Packages-price {
 	    left: 325px;
 	}
+
+	.Movier-text {
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+	.Moving-Company-img-2 {
+	    width: 100%;
+	    max-width: 100%;
+	    text-align: center;
+	    margin-top: 10px;
+	}	
+
+	.Moving-Company-text-2 p {
+	    font-size: 13px;
+	}
+
+	.choose-amex-text p{
+		font-size: 13px;
+	}
+
+	.Moving-Service-heading {
+	    margin-bottom: 15px;
+	}
+
+	.state-moving-company-sec {
+	    padding: 40px 0;
+	}
+
+	.moving-company-top h4 {
+	    font-size: 24px;
+	}
+
+	.moving-company-bottom {
+	    padding: 10px 0;
+	}
+
+	.moving-company-top {
+	    margin-bottom: 30px;
+	}
+
+	.footer-top {
+	    padding-top: 100px;
+	    padding-bottom: 65px;
+	}
+
+	.quick-color h5 {
+	    font-size: 20px;
+	}
+
+	.footer-top p, .footer-top a {
+	    font-size: 12px;
+	}
+
+	.footer-top ul li {
+	    padding-top: 14px;
+	}
+
+	.footer-contect-logo {
+	    width: 24px;
+	    height: 24px;
+	}
+
+	.footer-contect-logo {
+	    margin-right: 12px;
+	}
+
+	.moving-company-bottom span {
+	    margin-left: 10px;
+	}
+
+	.star-img p {
+	    font-size: 13px;
+	    line-height: 22px;
+	}
+
+	.footer-top {
+	    padding: 50px 0;
+	}
+
+	.quick-color {
+	    width: 100%;
+	    max-width: 33.33%;
+	}
+
+	.moving-company-text-area li ul li {
+	    margin-bottom: 20px;
+	    font-size: 13px;
+	}
+
+	.footer-main-detels {
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+	.moving-company-bottom h4 {
+	    font-size: 22px;
+	}
+
+	.footer-bottom-text p {
+	    font-size: 13px;
+	}
+
+	.footer-bottom-text {
+	    width: 100%;
+	    max-width: 50%;
+	}
+	
 }
 
 @media (max-width:992px){
-	.header-top-left a {
-	    font-size: 14px;
+	.header-top-left {
+	    padding: 8px 75px 4px 0;
 	}
 
 	.header-top-left a span {
@@ -201,8 +314,29 @@
 	    width: 38px;
 	}
 
+	html body {
+	    padding-top: 122px;
+	}
+
 	.titlename-top {
-    	padding: 10px 0 10px 30px;
+	    padding: 9px 0 9px 30px;
+	}
+
+	.big-title {
+	    font-size: 50px;
+	}
+
+	.small-title {
+	    font-size: 20px;
+	}
+
+	.small-title {	    
+		margin-bottom: 20px;
+	}
+
+	.btn {
+	    padding: 10px 10px;
+	    font-size: 13px;
 	}
 
 	.header-top-right .menu {
@@ -213,18 +347,180 @@
     	margin-right: 30px;
 	}
 
-	.header-top-left {
-   	 	padding: 4px 75px 4px 0;
-	}
-
 	.toggle-btn{
 		display: flex;
+	}
+
+	.quote-det h2 {
+	    padding-left: 20px;
+	    font-size: 35px;
+	}
+
+	.quote-det p {
+	    font-size: 13px;
+	    padding-left: 20px;
+	}
+
+	.quote-menu-big {
+	    font-size: 15px;
+	}
+
+	.quote-menu-small {
+	    font-size: 13px;
+	}
+
+	.quote-det {
+	    padding: 17px 30px 17px 0;
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+	.quote-det {
+	    margin-left: -15px;
+	}
+
+	.quote-menu-left {
+	    padding: 15px 40px;
+	}
+
+	.Quote-sec:before {
+		display: none;
+	}
+
+	.quote-menu {
+	    justify-content: center;
+	    width: 100%;
+	}
+
+	.btn-blank {
+	    padding: 10px 15px;
 	}
 
 	.header-bottom-right .menu-bottom nav ul {
 	    display: flex;
 	    flex-direction: column;
 	    align-items: flex-start;
+	}
+
+	body p {
+	    font-size: 14px;
+	}
+
+	.Movier-img {
+	    margin-top: 20px;
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+	.service-text-heading img {
+	    margin-bottom: 0px;
+	}
+
+	.section-gapping, section {
+	    padding-bottom: 40px;
+	    padding-top: 40px;
+	}
+
+	.Moving-Process {
+	    display: flex;
+	    flex-direction: row;
+	}
+
+	.service-text-heading {
+	    padding-top: 50px;
+	}
+
+	.Moving-Service-heading span:after {
+	    width: 140px;
+	    right: 390px;
+	}
+
+	.Moving-Packages-price {
+	    left: 210px;
+	}
+
+	.Moving-Packages-text span h6 {
+	    font-size: 22px;
+	}
+
+	.Moving-Packages-text span p {
+	    font-size: 14px;
+	}
+
+	.Moving-Packages-price {
+	    left: 210px;
+	    width: 70px;
+	    height: 70px;
+	    text-align: center;
+	    font-size: 20px;
+	}
+
+	.Moving-Company {
+	    display: block;
+	}
+
+	.choose-amex {
+	    display: block;
+	}
+
+	.choose-amex-img {
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+	.choose-amex-text-area {
+	    width: 100%;
+	    max-width: 100%;
+	    padding-left: 0;
+	}
+
+	.choose-amex-text {
+	    margin-bottom: 20px;
+	}
+
+	.Moving-Reviews p {
+	    font-size: 22px;
+	}
+
+	.Moving-Packages-text-area ul li a {
+	    position: absolute;
+	    bottom: -18px;
+	    right: 10px;
+	    padding: 7px 7px;
+	}
+
+	.star-img p {
+	    min-height: 132px;
+	}
+
+	.moving-company-top h4 {
+	    font-size: 16px;
+	}
+
+	.mtm {
+	    font-size: 30px;
+	}
+
+	.Movier-text p {
+	    margin-bottom: 10px;
+	}
+
+	.Moving-Packages-text-area > ul > li > ul > li {
+	    margin-bottom: 20px;
+	    font-size: 13px;
+	}
+
+	.Moving-Process h2 {
+	    font-size: 21px;
+	}
+
+	.Moving-Process-sec li {
+	    margin: 0 15px;
+	}
+
+	.Moving-Service-heading span:before {
+	    width: 140px;
+	    left: 390px;
 	}
 
 	.header-bottom-right .menu-bottom nav {
@@ -265,14 +561,32 @@
 		filter: blur(1px);
 	}
 
+	.quick-color h5 {
+	    font-size: 16px;
+	    margin: 0;
+	}
+
 
 
 }
 
 @media (max-width:767px){
 	
+	html body {
+	    padding-top: 85.95px;
+	}
+
 	.header-top-left {
     	padding: 6px 26px 6px 0;
+	}
+
+	.big-title {
+	    font-size: 25px;
+	    margin-bottom: 5px;
+	}
+
+	.small-title {
+	    font-size: 12px;
 	}
 
 	.titlename-top {
@@ -312,5 +626,279 @@
 	    height: 16px;
 	}
 
+	.left-btn li span {
+	    height: 30px;
+	    width: 30px;
+	}
+
+	.right-btn span {
+	    display: block;
+	    height: 30px;
+	    width: 30px;
+	}
+
+	.quote-det h2 {
+	    padding-left: 20px;
+	    font-size: 25px;
+	}
+
+	.quote-det p {
+	    font-size: 9px;
+	    padding-left: 20px;
+	}
+
+	.quote-menu-left-2 {
+	    padding-left: 18px;
+	}
+
+	.quote-menu-btn {
+	    margin-left: 10px;
+	}
+
+	.quote-menu-left {
+	    padding: 0 10px;
+	}
+
+	.quote-menu-big {
+	    font-size: 8px;
+	}
+
+	.btn {
+	    padding: 5px 8px;
+	    font-size: 8px;
+	}
+
+	.quote-menu-small {
+	    font-size: 12px;
+	}
+
+	.mtm {
+	    font-size: 20px;
+	    margin-bottom: 10px;
+	}
+
+	body p {
+	    font-size: 12px;
+	}
+
+	.btn-blank {
+	    padding: 5px 8px;
+	    font-size: 8px;
+	}
+
+	.service-text-area ul li {
+	    max-width: 100%;
+	    margin-bottom: 20px;
+	}
+
+	.Moving-Service-heading h3 {
+	    font-size: 24px;
+	    margin-bottom: 5px;
+	}
+
+	.Choosing-Peace-heading p {
+	    font-size: 10px;
+	}
+
+	.Moving-Service-heading span:before {
+	    width: 100px;
+	    left: 23px;
+	    height: 0.5px;
+	}
+
+	.Moving-Service-heading span:after {
+	    width: 100px;
+	    right: 23px;
+	    height: 0.5px;
+	}
+
+	.Choosing-Peace-text-area ul li {
+	    max-width: 100%;
+	    margin-bottom: 20px;
+	}
+
+	.inner-menu {
+	    flex-wrap: wrap;
+	}
+
+	.inner-menu li {
+	    display: block;
+	    width: 100%;
+	    max-width: calc(100% / 2);
+	    margin-bottom: 24px;
+	    text-align: center;
+	}
+
+	.inner-menu h6 {
+	    font-size: 20px;
+	}
+
+	.inner-menu p {
+	    font-size: 12px;
+	    line-height: 10px;
+	}
+
+	.inner-menu li span {
+	    margin: 0 auto;
+	    max-width: 48px;
+	}
+
+	.inner-menu li div{
+		text-align: center;
+	}
+
+	.moveing-tips-text-area ul {
+	    margin: 0 -20px;
+	    margin-top: 20px;
+	}
+
+	.moveing-tips-text-area ul li h4 {
+	    font-size: 12px;
+	}
+
+	.moveing-tips-text-area ul {
+	    flex-wrap: wrap;
+	}
+
+	.moveing-tips-text-area ul li {
+	    max-width: 100%;
+	}
+
+	.moveing-tips-text-area ul li {
+	    margin-bottom: 10px;
+	}
+
+	.Moving-Process {
+	    flex-wrap: wrap;
+	}
+
+	.Moving-Process-sec li {
+	    max-width: 100%;
+	}
+
+	.Moving-Process h2 {
+	    font-size: 22px;
+	}
+
+	.Moving-Process-sec li {
+	    padding: 20px;
+	}
+
+	.Moving-Process p {
+	    font-size: 10px;
+	}
+
+	.Moving-Process li:not(:last-child){
+		margin-bottom: 20px;
+	}
+
+	.Moving-Process .btn {
+	    bottom: -10px;
+	}
+
+	.Moving-Packages-text-area > ul > li {
+	    max-width: 100%;
+	}
+
+	.Moving-Packages-price {
+	    left: 157px;
+	    width: 60px;
+	    height: 55px;
+	    font-size: 15px;
+	}
+
+	.Moving-Packages-text-area ul li a {
+	    bottom: -13px;
+	}
+
+	.Movier-text span:before {
+	    height: 0.5px;
+	}
+
+	.choose-amex-text-2 h3 {
+	    font-size: 24px;
+	}
+
+	.Moving-Reviews p {
+	    font-size: 20px;
+	}
+
+	.star-img p {
+	    min-height: 176px;
+	}
+
+	.owl-nav{
+		display: none;
+	}
+
+	.moving-company-top h4 {
+	    font-size: 5px;
+	}
+
+	.moving-company-bottom h4 {
+	    font-size: 16px;
+	}
+
+	.moving-company-bottom span {
+	    max-width: 11px;
+	}
+
+	.footer-main-detels a {
+	    max-width: 100px;
+	}
+
+	.footer-top p, .footer-top a {
+	    font-size: 11px;
+	}
+
+	.quick-color{
+		max-width: 50%;
+	}
+
+	.quick-links-area-3{
+		margin-top: 20px;
+		max-width: 100%;
+	}
+
+	.footer-bottom-text {
+	    max-width: 70%;
+	}
+
+	.footer-bottom-icon a {
+	    height: 20px;
+	    width: 20px;
+	}
+
+	.footer-bottom-text p {
+	    font-size: 8px;
+	}
+
+	.footer-bottom-icon a svg {
+		height: 8px;
+		width: 8px;
+	}
+
+	.moving-company-text-area li ul li span svg{
+		width: 8px;
+		height: 8px;
+	}
+
+	.moving-company-text-area li ul li {
+	    margin-bottom: 5px;
+	    font-size: 10px;
+	}
+
+	.moving-company-text-area {
+	    justify-content: center;
+	}
+
+	.moving-company-text-area > li {
+	    max-width: 33.33%;
+	    margin-bottom: 10px;
+	}
+
+	.moving-company-text-area li ul li span {
+	    margin-right: 0px;
+	}
 
 }
