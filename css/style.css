@@ -1344,6 +1344,13 @@ h3{
 
 .moving-company-bottom span {
     display: block;
+    margin-left: 10px;
+    transition: all 0.5s ease 0s;
+}
+
+
+.moving-company-bottom .plus-icon-rotat{
+    transform: rotate(405deg);
 }
 
 .moving-company-bottom .container{

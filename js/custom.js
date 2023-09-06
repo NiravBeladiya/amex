@@ -9,6 +9,10 @@ $('.moving-company-list').hide();
 	$('.plus-icon').click(function(){
 		$('.moving-company-list').slideToggle('linear');
 })
+
+	$('.plus-icon').click(function(){
+	$(".plus-icon").toggleClass('plus-icon-rotat');
+})
 	
 	$('.Testimonial').owlCarousel({
 		    loop:true,
@@ -31,3 +35,4 @@ $('.moving-company-list').hide();
 		})
 
 });
+
